@@ -1,0 +1,9 @@
+{
+  "provider": "gemini",
+  "model": "gemini-3.6-flash",
+  "base_url": "https://api.openai.com/v1/chat/completions",
+  "symbols": ["AAPL", "BTC-USD"],
+  "interval_minutes": 5,
+  "lookback_period": "5d",
+  "prompt": "Analyze the supplied market data for educational purposes. Summarize the recent trend, notable changes, and uncertainty. Do not claim certainty, invent missing data, or present this as personalized financial advice. End with a short list of risks to verify independently."
+}
